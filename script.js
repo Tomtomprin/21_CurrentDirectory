@@ -10,17 +10,16 @@ const Links = document.querySelectorAll('.nav_list > li > a');
 // 全ての.nav_list li aを「Link」と定義
 
 
+window.onload = function () {
+    for (var i = 0; i < Links.length; i++) {
+        console.log(i);
+        if (Links[i].href == Href) {
+            document.querySelectorAll('.nav_list > li')[i].classList.add('current');
 
-window.addEventListener('load', function () {
-for (var i = 0; i < Links.length; i++) {
-    console.log(i);
-    if (Links[i].href == Href) {
-        document.querySelectorAll('.nav_list > li')[i].classList.add('current');
+        }
 
     }
-
 }
-    })
 
 // ▼▼解説▼▼
 // 「配列.length」で、要素の数を取得できる。
