@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    height: 100px;
+    background: lightblue;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    flex: 1;
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.text {
+    font-size: 1.6rem;
+
+}
+
+
+.current {
+    background: lightcoral;
+}
+
+.explanation {
+    height: auto;
+    width: 100%;
+    background: lightyellow;
+    font-size: 1.4rem;
+
+}
