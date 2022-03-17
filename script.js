@@ -10,7 +10,8 @@ const Links = document.querySelectorAll('.nav_list > li > a');
 // 全ての.nav_list li aを「Link」と定義
 
 
-window.onload = function () {
+window.addEventListener('DOMContentLoaded', function () {
+
     for (var i = 0; i < Links.length; i++) {
         console.log(i);
         if (Links[i].href == Href) {
